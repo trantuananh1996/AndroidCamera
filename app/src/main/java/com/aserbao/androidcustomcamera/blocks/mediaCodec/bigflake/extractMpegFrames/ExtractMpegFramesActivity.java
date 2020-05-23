@@ -10,8 +10,7 @@ import android.opengl.GLES11Ext;
 import android.opengl.GLES20;
 import android.opengl.Matrix;
 import android.os.Environment;
-import android.support.v7.app.AppCompatActivity;
-import android.test.AndroidTestCase;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Surface;
 

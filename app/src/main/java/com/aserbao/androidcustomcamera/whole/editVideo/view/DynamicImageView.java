@@ -2,7 +2,7 @@ package com.aserbao.androidcustomcamera.whole.editVideo.view;
 
 import android.content.Context;
 import android.graphics.Bitmap;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 

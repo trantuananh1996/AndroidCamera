@@ -2,11 +2,12 @@ package com.aserbao.androidcustomcamera.base.utils;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.v4.text.TextUtilsCompat;
 import android.util.AttributeSet;
 import android.util.LayoutDirection;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.core.text.TextUtilsCompat;
 
 import com.aserbao.androidcustomcamera.R;
 

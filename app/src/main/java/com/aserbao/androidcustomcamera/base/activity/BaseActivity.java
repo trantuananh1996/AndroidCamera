@@ -3,9 +3,10 @@ package com.aserbao.androidcustomcamera.base.activity;
 import android.Manifest;
 import android.os.Bundle;
 import android.os.PersistableBundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.ActivityCompat;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
 import butterknife.ButterKnife;
 
@@ -28,7 +29,7 @@ public abstract class BaseActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         startRequestPermission();
         initView();
-        getLifecycle()
+        getLifecycle();
     }
 
     private void startRequestPermission() {

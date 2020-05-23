@@ -1,7 +1,7 @@
 package com.aserbao.androidcustomcamera.blocks.audioRecord;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.aserbao.androidcustomcamera.R;
 
